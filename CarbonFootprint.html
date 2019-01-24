@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="CarbonFootprint.js"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://img00.deviantart.net/3fa4/i/2011/175/8/c/field_trees_background_by_limited_vision_stock-d3juefv.jpg");
+    min-height: 100%;
+
+}
+.w3-bar .w3-button {
+
+    padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card-2" id="myNavbar">
+    <a href="#home"><img src="logo.jpg" alt="Logo" height="60" width="80"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">  ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i>  THE PROBLEM</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i>  CALCULATOR</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i>  THE SOLUTION</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>  CONTACT US</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card-2 w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">YOUR CARBON FOOTPRINT</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">REDUCE YOUR CARBON FOOTPRINT</span><br>
+    <span class="w3-large">Reduce your carbon footprint</span>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:80px 16px" id="about">
+  <h3 class="w3-center">ABOUT US</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:30px">
+    <div class="w3-third">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Inspiration</p>
+      <p>Carbon emission has become an imminent problem that our generation must fight. The things that we do everyday; such as riding cars, taking a bus, taking a flight all have drastically negative effects to our environment. We created this website with hopes that we can raise awareness to reduce people's carbon footprints. The environment is something that we cannot ignore-it is a collective issue.</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Designers</p>
+      <p>This project was made by Annabel Qi, Hyunzee Kim, Maira Khan, and Yuhan Sun. We are four students from Sir John A. Macdonald Secondary School who strive to bring our ideas into reality. We want to use our passion for the environment to help reduce everyone's carbon footprints. </p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>Carbon This project was created at THacks, a hackathon that took place in October, 2017. We hope that our project makes a positive difference on the environment.</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- The Problem Section -->
+<div class="w3-container" style="padding:80px 16px" id="team">
+    <h3 class="w3-center">The Problem</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:10px">
+      <p> Carbon footprint is the amount of greenhouse gas we emit through some of our daily activities such as riding a car, using electricity and more. As our generation develops more advanced technology, this contributes to the increasing amounts of pollution that affects our environment. It is our responsibility to help reduce negative effects on the environment. Our large carbon footprints leave a lasting effect on environment; global warming being one of the most drastic effects of our actions.
+       </p>
+       <p> The transportation industry is an essential sector for carbon emissions mitigation. This paper firstly used the LMDI (Logarithmic Mean Divisia Index) decomposition method to establish factors decomposition model on China's transportation carbon emission. Then, a quantitative analysis was performed to study the factors influencing China's transportation carbon emissions from 1991 to 2008, which are identified as transportation energy efficiency, transportation structure and transportation development. The results showed that: (1) The impact of transportation development on transportation carbon emissions showed pulling function. Its contribution value to carbon emissions remained at high growth since 1991 and showed an exponential growth trend. (2) The impact of transportation structure on transportation carbon emissions showed promoting function in general, but its role in promoting carbon emissions decreased year by year. And with the continuous optimization of transportation structure, the promoting effect decreased gradually and showed the inversed “U” trend. (3) The impact of transportation energy efficiency on transportation carbon emissions showed a function of inhibition before pulling. In order to predict the potential of carbon emission reduction, three scenarios were set. Analysis of the scenarios showed that if greater intensity emission reduction measures are taken, the carbon emissions will reduce by 31.01 million tons by 2015 and by 48.81 million tons by 2020.
+       </p>
+       <p> From: http://www.tandfonline.com/doi/full/10.1080/10042857.2013.777200
+<br> 
+<br>
+<br>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-light-green w3-padding-64">
+    <p>The annual carbon emission per capita (tonnes): </p>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">17.5</span>
+    <br>United States
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14.67</span>
+    <br>Canada
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">7.96</span>
+    <br>England
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">40.1</span>
+    <br>Qatar
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- Calculator Section -->
+<div class="w3-container w3-center w3-light-green" style="padding:110px 80px" id="pricing">
+
+  <h3>CALCULATE YOUR CARBON FOOTPRINT</h3>
+  <p class="w3-large">Under 'method', type in one of your most common method of transportations (car, bus, metro, rail, or flight). Then input the approximate amount of time (in hours) spent on each method of transportation. We will then calculate your average carbon footprint. The average person has 19800kg CO2e per year. Compare with your value!</p>
+  <div class="w3-row-padding" style="margin-top:10px">
+    <form id="Your Information">
+      <p><input id="method" type="text" placeholder="Method listed above" required name="Method listed above"></p>
+      <p><input id="hours" type="text" placeholder="Time in Hours" required name="Time in Hours"></p>
+
+<br>
+<br>
+<button class="button" onclick="myFunction()">Input Info</button>
+
+  </div>
+</div>
+
+<!-- The Solution Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">WHAT CAN YOU DO TO HELP?</h3>
+
+  <div class="w3-row-padding" style="margin-top:44px">
+
+    <style>
+    .newspaper {
+        -webkit-column-count: 3; /* Chrome, Safari, Opera */
+        -moz-column-count: 3; /* Firefox */
+        column-count: 3;
+    }
+    </style>
+    </head>
+    <body>
+
+    <div class="newspaper">
+    <p id="list">-Carpool with friends when going somewhere<br><br>
+    -Walk / Bike / Skateboard to your destination<br><br>
+    -Turn lights off in a room when you're not in it<br><br>
+    -Use eco-friendly AC and heating in your homes<br><br>
+    -Unplug / turn off electronics at night<br>
+    <br>-Remember to recycle or reuse<br><br>
+    -Use reusable containers rather than bags<br><br>
+    -Power off electronics when not in use<br><br>
+    -Buy and eat locally grown food <br><br>
+    <style>
+      .list{
+        margin-left: 120px;
+      }
+    </style>
+    </div>
+
+     
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+</div>
+
+<!-- Contact Us Section -->
+<div class="w3-container w3-light-green" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">THANK YOU FOR VISITING OUR SITE</h3>
+  <p class="w3-center w3-large">If you have any questions about your carbon emission, feel free to leave us a message:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-100px"></i> Waterloo, ON, Canada</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (519)333-4444</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+      <br>
+    </div>
+    <div class="w3-half">
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  
+</footer>
+ 
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+</body>
+</html>
+
